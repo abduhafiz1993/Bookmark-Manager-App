@@ -21,7 +21,6 @@ function BookmarkForm() {
         <label className="block font-medium text-sm mb-1">Note (optional)</label>
         <textarea
           className="w-full border rounded p-2"
-          value={note}
           placeholder="Why is this useful?"
         />
       </div>
