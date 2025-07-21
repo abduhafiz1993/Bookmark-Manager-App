@@ -20,6 +20,7 @@ function BookmarkForm({onAdd}) {
     };
         console.log("Bookmark added:", { title, url, note });
         // Reset form fields
+        onAdd(newBookmark);
         setTitle("");
         setUrl("");
         setNote("");
